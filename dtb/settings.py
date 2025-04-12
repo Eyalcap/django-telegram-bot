@@ -24,7 +24,7 @@ SECRET_KEY = os.getenv(
 )
 
 if os.environ.get('DJANGO_DEBUG', default=False) in ['True', 'true', '1', True]:
-    DEBUG = True
+    DEBUG = False
 else:
     DEBUG = False
 
